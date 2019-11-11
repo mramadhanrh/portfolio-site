@@ -5,7 +5,7 @@ import styles from './index.module.css';
 
 const HeaderItem = ({ text, onClick }) => {
   return (
-    <button type="button" className={styles.button} onClick={onClick}>
+    <button aria-label={text} type="button" className={styles.button} onClick={onClick}>
       {text}
     </button>
   );

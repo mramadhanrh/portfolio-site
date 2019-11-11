@@ -1,3 +1,7 @@
 * {
   font-family: 'Linotte', arial, sans-serif;
 }
+
+html {
+  overflow: auto;
+}

@@ -7,7 +7,7 @@ import styles from './index.module.css';
 
 const HomepageTemplate = ({ header, sider, children }) => {
   return (
-    <div>
+    <div className={styles.container}>
       <Row>
         <Col xs={3}>
           <aside className={styles.sider}>{sider}</aside>
