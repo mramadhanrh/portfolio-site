@@ -2,7 +2,7 @@ import React from 'react';
 import HomeHeader from '../../components/organisms/Header/HomeHeader';
 import HomepageTemplate from '../../templates/HomepageTemplate';
 import Layout from '../../templates/Layout/Layout';
-import SEO from '../../components/seo';
+import SEO from '../../components/atoms/SEO';
 import Introduction from '../../components/organisms/Content/Introduction';
 
 const Homepage = () => {

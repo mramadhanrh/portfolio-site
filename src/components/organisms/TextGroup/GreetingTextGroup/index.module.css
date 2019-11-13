@@ -26,3 +26,13 @@
   font-size: 1.5em;
   color: #000000;
 }
+
+.button__text {
+  font-weight: 700;
+  margin: 0 10px;
+  font-size: 1.15em;
+}
+
+.button__emoji {
+  margin-left: 5px;
+}

@@ -5,3 +5,10 @@
 html {
   overflow: auto;
 }
+
+::selection {
+  background: midnightblue; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: midnightblue; /* Gecko Browsers */
+}

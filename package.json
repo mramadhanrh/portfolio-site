@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Ramadhan Rahmat <muhamadramadhanrahmat@gmail.com>",
   "dependencies": {
+    "@hot-loader/react-dom": "^16.11.0",
     "@material-ui/core": "^4.6.0",
     "@material-ui/styles": "^4.6.0",
     "antd": "^3.25.0",
