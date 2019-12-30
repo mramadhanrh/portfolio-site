@@ -5,14 +5,11 @@ import propTemplates from '../../propTemplates';
 
 import styles from './index.module.css';
 
-const HomepageTemplate = ({ header, sider, children }) => {
+const HomepageTemplate = ({ header, children }) => {
   return (
     <div className={styles.container}>
       <Row>
-        <Col xs={3}>
-          <aside className={styles.sider}>{sider}</aside>
-        </Col>
-        <Col xs={21}>
+        <Col xs={23}>
           <Row>
             <Col>
               <header>{header}</header>
@@ -29,13 +26,11 @@ const HomepageTemplate = ({ header, sider, children }) => {
 
 HomepageTemplate.propTypes = {
   header: propTemplates.children.propTypes,
-  sider: propTemplates.children.propTypes,
   children: propTemplates.children.propTypes
 };
 
 HomepageTemplate.defaultProps = {
   header: propTemplates.children.defaultProps,
-  sider: propTemplates.children.defaultProps,
   children: propTemplates.children.defaultProps
 };
 
