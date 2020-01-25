@@ -1,5 +1,5 @@
 import { styled } from '@material-ui/styles';
-import ButtonBase from '../ButtonBase/ButtonBase';
+import ButtonBase from '../ButtonBase';
 
 const RoundedButton = styled(ButtonBase)(({ style }) => ({
   borderRadius: 1000,
